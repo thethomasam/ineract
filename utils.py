@@ -26,7 +26,7 @@ from pocket.utils import DetectionAPMeter, BoxPairAssociation
 
 import sys
 sys.path.append('detr')
-import datasets.transforms as T
+import detr.datasets.transforms as T
 
 def custom_collate(batch):
     images = []
